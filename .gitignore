@@ -1,6 +1,7 @@
+# Ignore virtual environment and Python cache
 venv/
 __pycache__/
 *.pyc
-*.pkl
-*.pth
-DS_Store
+
+# Ignore system files
+.DS_Store
