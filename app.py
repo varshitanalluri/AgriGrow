@@ -3,6 +3,7 @@ from flask import Flask, redirect, render_template, url_for, request
 from markupsafe import Markup
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin, login_user, LoginManager, login_required, logout_user, current_user
+import sklearn
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, ValidationError
 from flask_wtf import FlaskForm
@@ -18,6 +19,8 @@ from utils.model import ResNet9
 from utils.fertilizer import fertilizer_dic
 from utils.disease import disease_dic
 import joblib
+
+print("scikit-learn version used to train the model:", sklearn.__version__)
 
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
