@@ -8,8 +8,7 @@ MarkupSafe==3.0.2
 numpy==2.2.5
 pandas==2.2.3
 Pillow==11.2.1
-python_bcrypt==0.3.2
 torch==2.2.0
-torchvision==0.22.0
+torchvision==0.17.0
 WTForms==3.2.1
 gunicorn==21.2.0
