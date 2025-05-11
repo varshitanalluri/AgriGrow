@@ -20,8 +20,6 @@ from utils.fertilizer import fertilizer_dic
 from utils.disease import disease_dic
 import joblib
 
-print("scikit-learn version used to train the model:", sklearn.__version__)
-
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
 
